@@ -1,0 +1,33 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# SECRETS - never commit
+kaggle.json
+.env
+*.key
+
+# Data and large files
+data/
+*.zip
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Sample images stay local until dataset terms are checked
+sample_images/*
+!sample_images/.gitkeep
+
+# MATLAB autosaves
+*.asv
+*.m~
+slprj/
