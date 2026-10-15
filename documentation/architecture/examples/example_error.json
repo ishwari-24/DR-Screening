@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "status": "ERROR",
+  "error": {
+    "code": "UNSUPPORTED_FORMAT",
+    "message": "Unsupported file type '.gif'."
+  },
+  "disclaimer": "AI screening support, not a medical diagnosis."
+}

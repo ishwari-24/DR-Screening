@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "status": "OK",
+  "quality": {
+    "quality": "GOOD",
+    "score": 82,
+    "sharpness": 123.4,
+    "illumination": 0.81,
+    "fov_detected": true,
+    "message": "Image quality acceptable"
+  },
+  "prediction": {
+    "grade": 2,
+    "grade_name": "Moderate DR",
+    "confidence": 0.87,
+    "probabilities": [
+      0.02,
+      0.05,
+      0.87,
+      0.04,
+      0.02
+    ],
+    "referable": true,
+    "low_confidence": false,
+    "recommendation": "Ophthalmologist review recommended"
+  },
+  "explainability": {
+    "heatmap_path": "outputs/gradcam/example_heatmap.png",
+    "overlay_path": "outputs/gradcam/example_overlay.png"
+  },
+  "disclaimer": "AI screening support, not a medical diagnosis."
+}

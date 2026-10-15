@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "status": "RECAPTURE_REQUIRED",
+  "quality": {
+    "quality": "RECAPTURE_REQUIRED",
+    "score": 31,
+    "sharpness": 12.0,
+    "illumination": 0.55,
+    "fov_detected": true,
+    "message": "Image is too blurry. Please hold the camera steady and recapture."
+  },
+  "disclaimer": "AI screening support, not a medical diagnosis."
+}
